@@ -25,6 +25,7 @@ c =  {
 }
 */
 
+/*
 // 05 Dynamic Type OR any Type.
 //variable
 let a: any;
@@ -45,3 +46,11 @@ b = {
     name: 'Bangladesh',
     age:  21
 }
+*/
+
+// Lesson 6 How to use Function - TypeScript 
+// let myFunc = Function ;
+let myFunc = (a: number, b: number, c: string = "true")=> {
+    return a + b;
+};
+myFunc(4,5, "false");
